@@ -1,4 +1,4 @@
-target/
+/target/
 !.mvn/wrapper/maven-wrapper.jar
 
 ### STS ###
@@ -8,6 +8,7 @@ target/
 .project
 .settings
 .springBeans
+.sts4-cache
 
 ### IntelliJ IDEA ###
 .idea
@@ -15,10 +16,10 @@ target/
 *.iml
 *.ipr
 
-### JRebel ### rebel.xml
-
-### MAC ###
-.DS_Store
-
-### Other ### logs/
-temp/
+### NetBeans ###
+/nbproject/private/
+/build/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
